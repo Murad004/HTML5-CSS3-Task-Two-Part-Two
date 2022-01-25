@@ -1,0 +1,96 @@
+nav{
+    height: 10vh;
+    background-color: rgb(46, 44, 44);
+
+    position: relative;
+}
+.NavBarUL{
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+}
+
+
+
+
+.PeopleLI
+{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+
+#peopleImg{
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 28px;
+    color: gray;
+}
+
+
+#peopleImg:hover{
+    transition-property: color;
+    color: skyblue;
+}
+
+
+
+.PeopleH1{
+    font-size: 22px;
+    color: gray;
+    position: absolute;
+    top: -22px;
+    left: 35px;
+}
+
+#peopleImg .PeopleH1:hover{
+
+    transition-property: color;
+    color: white;
+}
+
+
+.InboxLI{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+
+#inboxImg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -2px;
+    color: gray;
+}
+
+#inboxImg:hover{
+    transition-property: color;
+    color: skyblue;
+}
+
+
+.InboxH1{
+    font-size: 22px;
+    color: gray;
+    position: absolute;
+    top: -22px;
+    left: 30px;
+}
+
+
+#inboxImg .InboxH1:hover{
+
+    transition-property: color;
+    color: white;
+}
+
+
+
+
+
